@@ -31,7 +31,13 @@
     transition: all 2.5s;
 }
 
-@media only screen and (orientation: portrait) {
+#profile-picture {
+    width: 20%;
+    border-radius: 100%;
+    box-shadow: 0px 0px 10px #030303;
+}
+
+@media only screen and (orientation: portrait){
     .container {
         position: absolute;
 
@@ -41,15 +47,7 @@
         margin-left: 15%;
         margin-top: 20vh;
     }
-}
 
-#profile-picture {
-    width: 20%;
-    border-radius: 100%;
-    box-shadow: 0px 0px 10px #030303;
-}
-
-@media only screen and (orientation: portrait){
     #profile-picture {
         width: 30%;
     }
