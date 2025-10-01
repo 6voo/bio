@@ -47,3 +47,20 @@ body {
         object-position: bottom;
     }
 }
+
+.overlay-dots {
+    background-image: url("/media/dots.png");
+    background-position-x: 0px;
+    background-position-y: 0px;
+    background-size: initial;
+    background-repeat: repeat;
+    background-attachment: initial;
+    background-origin: initial;
+    background-clip: initial;
+    background-color: transparent;
+
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+    position:fixed;
+}
