@@ -2,14 +2,18 @@
 <html>
     <title>l l u</title>
     <link href="assets/css/styles.css" rel="stylesheet">
+    <link href="assets/css/bio.css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     </html>
 <body>
     <img id="background" src="media/background.jpg">
-    <div class="landing">
-        <button onclick="deleteLanding()"><h1>click to enter.</h1></button>
-    </div>
+    <button onclick="playMedia()" id="landing"><h1>click to enter.</h1></button>
+   
+    <audio id="audio" loop="true">
+        <source src="media/safety..mp3" type="audio/mpeg">
+    </audio>
+
     <script src="assets/js/index.js"></script>
 </body>

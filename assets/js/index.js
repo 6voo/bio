@@ -1,5 +1,8 @@
-var landing = document.getElementsByClassName("landing");
+var landing = document.getElementById("landing");
+var audio = document.getElementById("audio");
 
-function deleteLanding() {
-    document.body.remove(landing)
+function playMedia() {
+    landing.style.opacity = 0;
+    landing.style.pointerEvents = 'none';
+    audio.play()
 }
