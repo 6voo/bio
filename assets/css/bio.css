@@ -16,6 +16,7 @@
     border-radius: 6px;
     box-shadow: 0px 0px 10px black;
 
+    opacity: 0;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 100%;
@@ -27,7 +28,7 @@
     flex-direction: column;
     padding: 20px;
 
-    transition: all 1.5s;
+    transition: all 2.5s;
 }
 
 @media only screen and (orientation: portrait) {
@@ -45,6 +46,7 @@
 #profile-picture {
     width: 20%;
     border-radius: 100%;
+    box-shadow: 0px 0px 10px #030303;
 }
 
 @media only screen and (orientation: portrait){

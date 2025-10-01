@@ -4,7 +4,8 @@ var audio = document.getElementById("audio");
 
 function playMedia() {
     landing.style.opacity = 0;
-    bio.style.opacity = 100;
-    landing.style.pointerEvents = 'none';
+    landing.addEventListener('transitionend', () => landing.remove())
+
+    bio.style.opacity = 1;
     audio.play()
 }
