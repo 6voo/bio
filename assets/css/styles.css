@@ -28,7 +28,7 @@ body {
     border-style: none;
     backdrop-filter: blur(10px);
 
-    transition: all 3.5s;
+    transition: all 2.0s;
     z-index: 2;
 }
 

@@ -1,5 +1,5 @@
 var colour="#FFFFFF";
-var sparkles=25;
+var sparkles=30;
 
 /****************************
 *  Tinkerbell Magic Sparkle *
