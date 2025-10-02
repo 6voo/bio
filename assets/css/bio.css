@@ -29,7 +29,7 @@
     flex-direction: column;
     padding: 20px;
 
-    transition: all 2.5s;
+    transition: opacity 2.5s;
 }
 
 #profile-picture {
@@ -40,21 +40,23 @@
 
 #profile-name {
     font-family: "Minecraft";
-    font-size: 2rem;
+    font-size: 4.5vh;
     font-weight: normal;
     text-shadow: 0px 0px 10px white;
 }
 
 #profile-description {
-    font-family: monospace;
-    font-size: 0.9rem;
-    padding: 0px;
+    font-family: "Cutive Mono";
+    font-size: 1.5vw;
+    padding: auto;
 }
 
 .badges {
     margin-top: -1vh;
     width: 20%;
+    max-width: 10rem;
     height: 10%;
+    max-height: 2.5rem;
     border-radius: 20px;
     border: 1px solid #42424242;
     background-color: #161616;
@@ -71,7 +73,7 @@
 }
 
 #profile-bio {
-    font-size: 1rem;
+    font-size: 1.7vw;
 }
 
 ::selection {
@@ -96,8 +98,12 @@
     }
 
     #profile-description {
-        font-size: 0.6rem;
+        font-size: 2.2vw;
         margin-top: 2%;
+    }
+
+    #profile-bio {
+        font-size: 3vw;
     }
 
     .badges {

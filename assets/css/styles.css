@@ -49,7 +49,7 @@ body {
 }
 
 .overlay-dots {
-    background-image: url("/media/dots.png");
+    background-image: url("../../media/dots.png");
     background-position-x: 0px;
     background-position-y: 0px;
     background-size: initial;
