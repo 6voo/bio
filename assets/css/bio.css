@@ -13,14 +13,14 @@
 
 .container {
     width: 50%;
-    height: 50vh;
+    height: 57vh;
 
     background-color: #00000079;
     backdrop-filter: blur(10px);
     border-radius: 6px;
     box-shadow: 0px 0px 10px black;
 
-    opacity: 0;
+    opacity: 1;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 100%;
@@ -81,6 +81,17 @@
     font-size: 1.7vw;
 }
 
+.links svg{
+    filter: drop-shadow(0px 0px 6px #FFF);
+    height: 2em;
+    width: 2em;
+    margin-top: -20%;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
 ::selection {
     background: transparent;
     color: inheret;
@@ -109,8 +120,13 @@
     .badges {
         width: 30%;
     }
+
     .badges svg {
         width: 1.4em;
         height: 1.4em;
+    }
+
+    .links svg {
+        margin-top: 10%;
     }
 }
