@@ -13,14 +13,14 @@
 
 .container {
     width: 50%;
-    height: 57vh;
+    height: auto;
 
     background-color: #00000079;
     backdrop-filter: blur(10px);
     border-radius: 6px;
     box-shadow: 0px 0px 10px black;
 
-    opacity: 1;
+    opacity: 0;
     color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 100%;
@@ -31,7 +31,7 @@
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: 20px;
+    padding: 2%;
 
     transition: opacity 2.5s;
 }
@@ -58,23 +58,26 @@
 
 .badges {
     margin-top: -1vh;
-    width: 20%;
-    max-width: 10rem;
-    height: 10%;
-    max-height: 2.5rem;
-    border-radius: 20px;
+    width: 24%;
+    max-width: 16rem;
+    height: 8vh;
+    max-height: 4rem;
+    border-radius: 200px;
     border: 1px solid #42424242;
     background-color: #161616;
 
     display: flex;
     align-items: center;
     justify-content: center;
+
+    gap: 10px;
+    padding: 2px;
 }
 
 .badges svg {
     filter: drop-shadow(0px 0px 6px #FFF);
-    width: 2em;
-    height: 2em;
+    width: auto;
+    height:60%;
 }
 
 #profile-bio {
@@ -83,15 +86,15 @@
 
 .links svg{
     filter: drop-shadow(0px 0px 6px #FFF);
-    height: 2em;
-    width: 2em;
-    margin-top: -20%;
+    height: auto;
+    width: 3vw;
 }
 
 .links a {
     color: white;
     text-decoration: none;
 }
+
 ::selection {
     background: transparent;
     color: inheret;
@@ -127,6 +130,7 @@
     }
 
     .links svg {
+        height: 6vw;
         margin-top: 10%;
     }
 }
